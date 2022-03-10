@@ -1,0 +1,66 @@
+/*HTML layout from planning*/
+/* <div class="pane">
+  <div class="teeth">
+    <div class="tooth">
+      <div class="comb-tooth-L"></div>
+      <div class="comb-tooth-R"></div>
+    </div>
+    <div class="tooth">
+      <div class="comb-tooth-L"></div>
+      <div class="comb-tooth-R"></div>
+    </div>
+    <div class="tooth">
+      <div class="comb-tooth-L"></div>
+      <div class="comb-tooth-R"></div>
+    </div>
+    <div class="tooth">
+      <div class="comb-tooth-L"></div>
+      <div class="comb-tooth-R"></div>
+    </div>
+    <div class="tooth">
+      <div class="comb-tooth-L"></div>
+      <div class="comb-tooth-R"></div>
+    </div>
+  </div>
+</div> */
+
+.teeth {
+  position: relative;
+  transform: translateY(-200px);
+}
+
+.tooth {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0;
+}
+
+.comb-tooth-L {
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  width:30px;
+  height:200px;
+  border-bottom: 5px solid black;
+  border-bottom-right-radius: 35px 100px;
+  box-shadow: 0 100px grey;
+}
+
+.comb-tooth-R {
+  display: inline-block;
+  margin: 0px;
+  width:30px;
+  height:200px;
+  border-bottom: 5px solid black;
+  border-bottom-left-radius: 35px 100px;
+  box-shadow: 0 100px grey;
+}
+
+.pane {
+  position: relative;
+  transform: translateY(200px);
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+}
