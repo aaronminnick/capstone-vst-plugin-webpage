@@ -17,6 +17,7 @@ function HeaderButton(props) {
   );
 }
 
+// eslint-disable-next-line
 HeaderButton = connect()(HeaderButton);
 
 export default HeaderButton;

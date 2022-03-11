@@ -61,6 +61,7 @@ const mapStateToProps = state => {
   }
 };
 
+// eslint-disable-next-line
 SildingInfoPane = connect(mapStateToProps)(SildingInfoPane);
 
 export default SildingInfoPane;
