@@ -1,18 +1,22 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-function HeaderButton() {
+function HeaderButton(props) {
 
   const handleButtonClick = () => {
+    const { dispatch } = this.props;
     //slider pane down animation
-    //update slider pane content
+    dispatch({onClickAction});
     //silder pane up animation
   };
 
   return (
     <React.Fragment>
-      <button onClick={handleButtonClick}>Foo</button>
+      <button onClick={handleButtonClick}>{props.buttonText}</button>
     </React.Fragment>
   );
 }
+
+HeaderButton = connect()(HeaderButton);
 
 export default HeaderButton;
