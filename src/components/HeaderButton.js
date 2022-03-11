@@ -6,7 +6,7 @@ function HeaderButton(props) {
   const handleButtonClick = () => {
     const { dispatch, onClickAction } = props;
     //slider pane down animation
-    dispatch({onClickAction});
+    dispatch(onClickAction());
     //slider pane up animation
   };
 

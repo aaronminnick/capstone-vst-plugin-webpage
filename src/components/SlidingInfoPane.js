@@ -48,7 +48,7 @@ function SildingInfoPane(props) {
           </div>
         </div>
         <div className="content-div">
-          <p>{content}</p>
+          {content}
         </div>
       </div>
     </React.Fragment>
