@@ -55,7 +55,7 @@ function SildingInfoPane(props) {
   );
 }
 
-const mapStateToProps = () => {
+const mapStateToProps = state => {
   return {
     content: state.infoPaneContent
   }

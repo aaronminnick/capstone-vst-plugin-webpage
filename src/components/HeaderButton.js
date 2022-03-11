@@ -4,10 +4,10 @@ import { connect } from 'react-redux';
 function HeaderButton(props) {
 
   const handleButtonClick = () => {
-    const { dispatch } = this.props;
+    const { dispatch, onClickAction } = props;
     //slider pane down animation
     dispatch({onClickAction});
-    //silder pane up animation
+    //slider pane up animation
   };
 
   return (
